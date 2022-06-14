@@ -8,3 +8,5 @@ print("Hello, my name is, ")
 #Printing a message to the user.
 print("Ok, let's now print the numbers 1 - 10.")
 #Printing the numbers from 1 - 10.
+for number in range(11):
+    print(number)
