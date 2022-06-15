@@ -3,5 +3,5 @@
 #Guessing Game
 def guessing_game():
     """
-    
+        This function chooses a number between 0 and 100.
     """
