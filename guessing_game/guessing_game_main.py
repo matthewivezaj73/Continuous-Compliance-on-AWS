@@ -19,3 +19,4 @@ while not not_done:
         print("Congratulations, your guess was correct!")
         #Setting the not_done flag to true to escape the loop.
         not_done = True
+    #Handling the case where the user incorrectly guessed the number.
