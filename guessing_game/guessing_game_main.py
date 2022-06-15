@@ -23,3 +23,4 @@ while not not_done:
     elif user_guess.isdigit() != my_rand:
         #Telling the user their choice was wrong and to please try again.
         print(f"Sorry, but, \'" + user_guess + "\' was incorrect, please try again." + "\n\n")
+    elif user_guess.isalpha != my_rand:
