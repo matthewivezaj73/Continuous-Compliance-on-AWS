@@ -24,7 +24,7 @@ while not not_done:
         #Telling the user their choice was wrong and to please try again.
         print(f"Sorry, but, \'" + user_guess + "\' is too low, please try again." + "\n\n")
     #Handling the case where the user guessed too high.
-    elif user_guess > my_rand:
+    elif int(user_guess) > my_rand:
         #Telling the user their choice was wrong and to please try again.
         print(f"Sorry, but, \'" + user_guess + "\' was too high, please try again."+ "\n\n")
     #Handling the case where the user enters a letter.
