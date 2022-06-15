@@ -40,4 +40,4 @@ while not not_done:
     #Creating an except block.
     except:
         #Telling the user to try again.
-        print("That was an invalid input, please try again!")
+        print("Sorry, but, \'" + user_guess + "\' was an invalid input, please try again!")
