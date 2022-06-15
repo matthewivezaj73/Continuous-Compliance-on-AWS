@@ -4,3 +4,4 @@
 #Importing mysum from sum_functions.
 from functions.sum_function import mysum
 #Creating a flag.
+not_done = False
