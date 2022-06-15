@@ -17,3 +17,4 @@ while not not_done:
     if user_guess == my_rand:
         #Printing out a congratulations message to the user.
         print("Congratulations, your guess was correct!")
+        #Setting the not_done flag to true to escape the loop.
