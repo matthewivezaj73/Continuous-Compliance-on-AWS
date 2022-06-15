@@ -29,4 +29,4 @@ while not not_done:
         print(f"Sorry, but, \'" + user_guess + "\' was way off, please choose a numeric value!"+ "\n\n")
     #Handling the case where the user's input is completely off.
     else:
-        
+        #Telling the user their choice wasn't even close.
