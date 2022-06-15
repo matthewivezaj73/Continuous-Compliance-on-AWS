@@ -10,3 +10,4 @@ while not not_done:
     #Instructing the user to enter a number.
     print("Please enter a number to add to the list.")
     #Allowing the user to input a number.
+    user_selection = input("")
