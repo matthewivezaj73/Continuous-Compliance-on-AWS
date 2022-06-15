@@ -5,3 +5,4 @@
 from functions.guessing_game import guessing_game
 #Creating a flag.
 not_done = False
+#Testing for user input.
