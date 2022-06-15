@@ -7,3 +7,5 @@ def mysum(myNum):
         of arguments and adds the numbers together.
     """
     #Creating a for loop.
+    for aNum in myNum:
+        
