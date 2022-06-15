@@ -28,7 +28,7 @@ while not not_done:
         #Telling the user their choice was wrong and to please try again.
         print(f"Sorry, but, \'" + user_guess + "\' was too high, please try again."+ "\n\n")
     #Handling the case where the user enters a letter.
-    elif user_guess.isalpha:
+    elif user_guess.isalpha():
         #Telling the user they just entered a letter.
         print("You just entered a letter! Please choose a number!")
     #Handling the case where the user's input is completely off.
