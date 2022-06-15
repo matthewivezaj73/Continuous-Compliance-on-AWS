@@ -7,3 +7,4 @@ from functions.guessing_game import guessing_game
 not_done = False
 #Testing for user input.
 while not not_done:
+    #Asking the user what number was generated.
