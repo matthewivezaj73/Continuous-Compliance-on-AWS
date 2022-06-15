@@ -8,3 +8,4 @@ not_done = False
 #Creating a while loop to test for user input.
 while not not_done:
     #Instructing the user to enter a number.
+    print("Please enter a number to add to the list.")
