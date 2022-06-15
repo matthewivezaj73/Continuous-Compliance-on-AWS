@@ -25,3 +25,4 @@ while not not_done:
         print(f"Sorry, but, \'" + user_guess + "\' was incorrect, please try again." + "\n\n")
     #Handling the case where the user incorrectly guessed the number and the value whas coprised of letters.
     elif user_guess.isalpha != my_rand:
+        #Telling the user their choice was wrong and to please try again.
