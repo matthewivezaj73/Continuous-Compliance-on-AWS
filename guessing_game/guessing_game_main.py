@@ -13,27 +13,27 @@ while not not_done:
     print("Please enter the random number:\t")
     #Creating a try block.
     try:
-    #Accepting the user's guess on what the random number could be.
-    user_guess = input("")
-    #Handling the case where the user correctly guessed the number.
-    if int(user_guess) == my_rand:
-        #Printing out a congratulations message to the user.
-        print("Congratulations, your guess was correct!"+ "\n\n")
-        #Setting the not_done flag to true to escape the loop.
-        not_done = True
-    #Handling the case where the user incorrectly guessed the number but is a numeric value.
-    elif int(user_guess) < my_rand:
-        #Telling the user their choice was wrong and to please try again.
-        print(f"Sorry, but, \'" + user_guess + "\' is too low, please try again." + "\n\n")
-    #Handling the case where the user guessed too high.
-    elif int(user_guess) > my_rand:
-        #Telling the user their choice was wrong and to please try again.
-        print(f"Sorry, but, \'" + user_guess + "\' was too high, please try again."+ "\n\n")
-    #Handling the case where the user enters a letter.
-    elif user_guess.isalpha():
-        #Telling the user they just entered a letter.
-        print("You just entered a letter! Please choose a number!")
-    #Handling the case where the user's input is completely off.
-    else:
-        #Telling the user their choice wasn't even close.
-        print(f"Sorry, but, \'" + user_guess + "\' wasn't even close, try again.")
+        #Accepting the user's guess on what the random number could be.
+        user_guess = input("")
+        #Handling the case where the user correctly guessed the number.
+        if int(user_guess) == my_rand:
+            #Printing out a congratulations message to the user.
+            print("Congratulations, your guess was correct!"+ "\n\n")
+            #Setting the not_done flag to true to escape the loop.
+            not_done = True
+        #Handling the case where the user incorrectly guessed the number but is a numeric value.
+        elif int(user_guess) < my_rand:
+            #Telling the user their choice was wrong and to please try again.
+            print(f"Sorry, but, \'" + user_guess + "\' is too low, please try again." + "\n\n")
+        #Handling the case where the user guessed too high.
+        elif int(user_guess) > my_rand:
+            #Telling the user their choice was wrong and to please try again.
+            print(f"Sorry, but, \'" + user_guess + "\' was too high, please try again."+ "\n\n")
+        #Handling the case where the user enters a letter.
+        elif user_guess.isalpha():
+            #Telling the user they just entered a letter.
+            print("You just entered a letter! Please choose a number!")
+        #Handling the case where the user's input is completely off.
+        else:
+            #Telling the user their choice wasn't even close.
+            print(f"Sorry, but, \'" + user_guess + "\' wasn't even close, try again.")
