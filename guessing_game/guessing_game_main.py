@@ -30,7 +30,7 @@ while not not_done:
     #Handling the case where the user enters a letter.
     elif user_guess.isalpha:
         #Telling the user they just entered a letter.
-        print("You just entered a letter! Please try again!")
+        print("You just entered a letter! Please choose a number!")
     #Handling the case where the user's input is completely off.
     else:
         #Telling the user their choice wasn't even close.
