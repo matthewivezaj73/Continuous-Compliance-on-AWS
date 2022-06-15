@@ -8,4 +8,5 @@ def mysum(myNum):
     """
     #Creating a for loop to add each element in the list.
     for aNum in myNum:
+        #Adding each number in the list.
         my_result += aNum;
