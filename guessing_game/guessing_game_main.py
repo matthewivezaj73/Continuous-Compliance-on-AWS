@@ -18,3 +18,4 @@ while not not_done:
         #Printing out a congratulations message to the user.
         print("Congratulations, your guess was correct!")
         #Setting the not_done flag to true to escape the loop.
+        not_done = True
