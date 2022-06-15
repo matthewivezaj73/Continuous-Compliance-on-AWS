@@ -20,7 +20,7 @@ while not not_done:
         #Setting the not_done flag to true to escape the loop.
         not_done = True
     #Handling the case where the user incorrectly guessed the number but is a numeric value.
-    elif user_guess.isdigit() < my_rand:
+    elif user_guess < my_rand:
         #Telling the user their choice was wrong and to please try again.
         print(f"Sorry, but, \'" + user_guess + "\' is too low, please try again." + "\n\n")
     #Handling the case where the user incorrectly guessed the number and the value whas coprised of letters.
