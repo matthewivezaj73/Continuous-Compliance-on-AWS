@@ -29,10 +29,6 @@ while not not_done:
         elif int(user_guess) > my_rand:
             #Telling the user their choice was wrong and to please try again.
             print(f"Sorry, but, \'" + user_guess + "\' was too high, please try again."+ "\n\n")
-        #Handling the case where the user enters a letter.
-        elif user_guess.isalpha():
-            #Telling the user they just entered a letter.
-            print("You just entered a letter! Please choose a number!")
     #Creating an except block.
     except:
         #Telling the user to try again.
