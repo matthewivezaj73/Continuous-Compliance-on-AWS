@@ -14,7 +14,7 @@ while not not_done:
     #Accepting the user's guess on what the random number could be.
     user_guess = input("")
     #Handling the case where the user correctly guessed the number.
-    if user_guess == my_rand:
+    if int(user_guess) == my_rand:
         #Printing out a congratulations message to the user.
         print("Congratulations, your guess was correct!"+ "\n\n")
         #Setting the not_done flag to true to escape the loop.
