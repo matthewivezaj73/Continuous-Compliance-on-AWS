@@ -3,5 +3,6 @@
 #Summing Numbers
 def mysum():
     """
-        Creating a function that can take any number of arguments and adds the numbers together.
+        Creating a function that can take any number 
+        of arguments and adds the numbers together.
     """
