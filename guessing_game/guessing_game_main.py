@@ -5,6 +5,7 @@
 from functions.guessing_game import guessing_game
 #Creating a flag.
 not_done = False
+#Creating a random number.
 #Testing for user input.
 while not not_done:
     #Asking the user what number was generated.
