@@ -38,3 +38,5 @@ while not not_done:
             #Telling the user their choice wasn't even close.
             print(f"Sorry, but, \'" + user_guess + "\' wasn't even close, try again.")
     #Creating an except block.
+    except:
+        
