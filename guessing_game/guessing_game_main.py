@@ -20,3 +20,4 @@ while not not_done:
         #Setting the not_done flag to true to escape the loop.
         not_done = True
     #Handling the case where the user incorrectly guessed the number but is a numeric value.
+    elif user_guess.isdigit():
