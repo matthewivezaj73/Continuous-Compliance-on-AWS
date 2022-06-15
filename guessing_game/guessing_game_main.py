@@ -15,4 +15,5 @@ while not not_done:
     user_guess = input("")
     #Handling the case where the user correctly guessed the number.
     if user_guess == my_rand:
+        #Printing out a congratulations message to the user.
         print("Congratulations, your guess was correct!")
