@@ -8,3 +8,4 @@ not_done = False
 #Testing for user input.
 while not not_done:
     #Asking the user what number was generated.
+    print("Please enter the random number:\t")
