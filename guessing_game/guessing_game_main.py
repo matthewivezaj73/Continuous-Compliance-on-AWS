@@ -40,3 +40,4 @@ while not not_done:
     #Creating an except block.
     except:
         #Telling the user to try again.
+        print("That was an invalid input, please try again!")
