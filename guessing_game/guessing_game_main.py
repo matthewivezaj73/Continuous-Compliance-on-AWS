@@ -27,6 +27,7 @@ while not not_done:
     elif user_guess > my_rand:
         #Telling the user their choice was wrong and to please try again.
         print(f"Sorry, but, \'" + user_guess + "\' was too high, please try again."+ "\n\n")
+    #Handling the case where the user enters a letter.
     #Handling the case where the user's input is completely off.
     else:
         #Telling the user their choice wasn't even close.
