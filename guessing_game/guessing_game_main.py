@@ -33,10 +33,6 @@ while not not_done:
         elif user_guess.isalpha():
             #Telling the user they just entered a letter.
             print("You just entered a letter! Please choose a number!")
-        #Handling the case where the user's input is completely off.
-        else:
-            #Telling the user their choice wasn't even close.
-            print(f"Sorry, but, \'" + user_guess + "\' wasn't even close, try again.")
     #Creating an except block.
     except:
         #Telling the user to try again.
