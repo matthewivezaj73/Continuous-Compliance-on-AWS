@@ -7,4 +7,4 @@ from functions.sum_function import mysum
 not_done = False
 #Creating a while loop to test for user input.
 while not not_done:
-    
+    #Instructing the user to enter a number.
