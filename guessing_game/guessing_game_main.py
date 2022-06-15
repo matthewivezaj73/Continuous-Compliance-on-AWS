@@ -10,3 +10,4 @@ while not not_done:
     #Asking the user what number was generated.
     print("Please enter the random number:\t")
     #Accepting the user's guess on what the random number could be.
+    user_guess = input("")
